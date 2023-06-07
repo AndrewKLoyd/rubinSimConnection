@@ -27,62 +27,73 @@ namespace RubinComm {
             "Cg9SdWJpbkNvbW0ucHJvdG8SCVJ1YmluQ29tbSJCCglHbG9iYWxQb3MSEAoI",
             "TGF0aXR1ZGUYASABKAESEQoJTG9uZ2l0dWRlGAIgASgBEhAKCEFsdGl0dWRl",
             "GAMgASgBIi4KC09yaWVudGF0aW9uEgkKAVgYASABKAISCQoBWRgCIAEoAhIJ",
-            "CgFaGAMgASgCIsMBCgRBTlBBEgoKAklkGAEgASgFEiYKCFBvc2l0aW9uGAIg",
-            "ASgLMhQuUnViaW5Db21tLkdsb2JhbFBvcxIrCgtPcmllbnRhdGlvbhgDIAEo",
-            "CzIWLlJ1YmluQ29tbS5PcmllbnRhdGlvbhIUCgxTZW5zb3JCb3R0b20YBCAB",
-            "KAISEwoLU2Vuc29yRnJvbnQYBSABKAISLwoOQ29udHJvbGxWYWx1ZXMYBiAB",
-            "KAsyFy5SdWJpbkNvbW0uQU5QQUNvbnRyb2xsIogBCgxBTlBBQ29udHJvbGwS",
-            "GAoQVmVydGljYWxWZWxvY2l0eRgBIAEoAhIXCg9EaWZmZXJlbnRTZWVydm8Y",
-            "AiABKAISEwoLQ291cnNlU2Vydm8YAyABKAISFwoPTWFpbkVuZ2luZVBvd2Vy",
-            "GAQgASgCEhcKD05vc2VFbmdpbmVQb3dlchgFIAEoAiKcAQoJQU5QQUdyb3Vw",
-            "Eg8KB0xpZGVySWQYASABKAUSDwoHR3JvdXBJZBgCIAEoBRIuCgVBTlBBcxgD",
-            "IAMoCzIfLlJ1YmluQ29tbS5BTlBBR3JvdXAuQU5QQXNFbnRyeRo9CgpBTlBB",
-            "c0VudHJ5EgsKA2tleRgBIAEoBRIeCgV2YWx1ZRgCIAEoCzIPLlJ1YmluQ29t",
-            "bS5BTlBBOgI4ASJ+CgVMYXllchINCgVTdGVwWBgBIAEoAhINCgVTdGVwWRgC",
-            "IAEoAhINCgVTdGVwWhgDIAEoAhITCgtMYXllclNoaWZ0WBgEIAEoAhITCgtM",
-            "YXllclNoaWZ0WRgFIAEoAhIMCgRSb3dzGAYgASgFEhAKCENvbGx1bW5zGAcg",
-            "ASgFIugCCgxNaXNzaW9uR3JvdXASCgoCSWQYASABKAUSLQoNVHlwZU9mTWlz",
-            "c2lvbhgCIAEoDjIWLlJ1YmluQ29tbS5NaXNzaW9uVHlwZRIxCgVBTlBBcxgD",
-            "IAMoCzIiLlJ1YmluQ29tbS5NaXNzaW9uR3JvdXAuQU5QQXNFbnRyeRIYChBE",
-            "cm9wRHVyYXRpb25UaW1lGAQgASgFEiIKBFBhdGgYBSADKAsyFC5SdWJpbkNv",
-            "bW0uR2xvYmFsUG9zEiIKBFpvbmUYBiADKAsyFC5SdWJpbkNvbW0uR2xvYmFs",
-            "UG9zEhMKC01heFZlbG9jaXR5GAcgASgCEiAKBkxheWVycxgIIAMoCzIQLlJ1",
-            "YmluQ29tbS5MYXllchISCgpHcm91cEFuZ2xlGAkgASgCGj0KCkFOUEFzRW50",
-            "cnkSCwoDa2V5GAEgASgFEh4KBXZhbHVlGAIgASgLMg8uUnViaW5Db21tLkFO",
-            "UEE6AjgBIqwBCgdNaXNzaW9uEi4KBkdyb3VwcxgBIAMoCzIeLlJ1YmluQ29t",
-            "bS5NaXNzaW9uLkdyb3Vwc0VudHJ5EikKC0tUU1Bvc2l0aW9uGAIgASgLMhQu",
-            "UnViaW5Db21tLkdsb2JhbFBvcxpGCgtHcm91cHNFbnRyeRILCgNrZXkYASAB",
-            "KAUSJgoFdmFsdWUYAiABKAsyFy5SdWJpbkNvbW0uTWlzc2lvbkdyb3VwOgI4",
-            "ASJZCghPYmplY3RCQhImCghQb3NpdGlvbhgBIAEoCzIULlJ1YmluQ29tbS5H",
-            "bG9iYWxQb3MSJQoHQkJQb3NlcxgCIAMoCzIULlJ1YmluQ29tbS5HbG9iYWxQ",
-            "b3MiOAoOU2ltR2FtZU9iamVjdHMSJgoJT2JqZWN0c0JCGAEgAygLMhMuUnVi",
-            "aW5Db21tLk9iamVjdEJCIjUKCUFucGFFcnJvchIRCglUaW1lU3RhbXAYASAB",
-            "KAkSFQoNRXJyb3JEaXN0YW5jZRgCIAEoAiKQAQoKR3JvdXBFcnJvchI5CgpB",
-            "bnBhc0Vycm9yGAEgAygLMiUuUnViaW5Db21tLkdyb3VwRXJyb3IuQW5wYXNF",
-            "cnJvckVudHJ5GkcKD0FucGFzRXJyb3JFbnRyeRILCgNrZXkYASABKAUSIwoF",
-            "dmFsdWUYAiABKAsyFC5SdWJpbkNvbW0uQW5wYUVycm9yOgI4ASKQAQoKRHJv",
-            "cFBvaW50cxI5CgpEcm9wUG9pbnRzGAEgAygLMiUuUnViaW5Db21tLkRyb3BQ",
-            "b2ludHMuRHJvcFBvaW50c0VudHJ5GkcKD0Ryb3BQb2ludHNFbnRyeRILCgNr",
-            "ZXkYASABKAUSIwoFdmFsdWUYAiABKAsyFC5SdWJpbkNvbW0uR2xvYmFsUG9z",
-            "OgI4ASKDAQoQQW5wYURpbmFtaWNNb2RlbBI9CglJc1dvcmtpbmcYASADKAsy",
-            "Ki5SdWJpbkNvbW0uQW5wYURpbmFtaWNNb2RlbC5Jc1dvcmtpbmdFbnRyeRow",
-            "Cg5Jc1dvcmtpbmdFbnRyeRILCgNrZXkYASABKAUSDQoFdmFsdWUYAiABKAg6",
-            "AjgBIksKDkNvbnRyb2xsVmFsdWVzEhYKDkNvdXJzZVZlbG9jaXR5GAEgASgC",
-            "EhEKCURpZmZlcmVudBgCIAEoAhIOCgZDb3Vyc2UYAyABKAIipwEKEFJlZ3Vs",
-            "YXRvckNvbXBsZXgSQwoMQU5QQUNvbnRyb2xsGAEgAygLMi0uUnViaW5Db21t",
-            "LlJlZ3VsYXRvckNvbXBsZXguQU5QQUNvbnRyb2xsRW50cnkaTgoRQU5QQUNv",
-            "bnRyb2xsRW50cnkSCwoDa2V5GAEgASgFEigKBXZhbHVlGAIgASgLMhkuUnVi",
-            "aW5Db21tLkNvbnRyb2xsVmFsdWVzOgI4ASKPAwoHU2ltSW5pdBIrCg1TaW1a",
-            "b25lQ2VudGVyGAEgASgLMhQuUnViaW5Db21tLkdsb2JhbFBvcxIMCgRUaW1l",
-            "GAIgASgFEhAKCEJlYXVmb3J0GAMgASgFEikKC0t0c1NwYXduUG9zGAQgASgL",
-            "MhQuUnViaW5Db21tLkdsb2JhbFBvcxIjCgVCdW95cxgGIAMoCzIULlJ1Ymlu",
-            "Q29tbS5HbG9iYWxQb3MSLAoLUHJlY2lwYXRpb24YByABKA4yFy5SdWJpbkNv",
-            "bW0uUHJlY2lwYXRpb25zEhIKCkFOUEFBbW91bnQYCCABKAUSFAoMV2F0ZXJE",
-            "ZW5zaXR5GAkgASgCEhMKC1RlbXBlcmF0dXJlGAogASgFEgsKA1BTVRgLIAEo",
-            "BRIRCglUdXJiaWRpdHkYDCABKAISEQoJRWNob0FuZ2xlGA0gASgCEhQKDEVj",
-            "aG9EaXN0YW5jZRgOIAEoAhINCgVFcnJvchgPIAEoAhIPCgdEZW5zaXR5GBAg",
-            "ASgCEhEKCUZyZXF1ZW5jeRgRIAEoAiIZCgZDdXN0b20SDwoHTWVzc2FnZRgB",
-            "IAEoCSKwAgoJQU5QQUFsaXZlEgoKAklkGAEgASgFEhIKCkNvbm5lY3Rpb24Y",
+            "CgFaGAMgASgCIi8KDFByb3RvVmVjdG9yMxIJCgFYGAEgASgCEgkKAVkYAiAB",
+            "KAISCQoBWhgDIAEoAiLoAQoMQU5QQUNvbnRyb2xsEi8KDkxpbmVhclZlbG9j",
+            "aXR5GAEgASgLMhcuUnViaW5Db21tLlByb3RvVmVjdG9yMxIuCg1Db250cm9s",
+            "bEZvcmNlGAIgASgLMhcuUnViaW5Db21tLlByb3RvVmVjdG9yMxIYChBWZXJ0",
+            "aWNhbFZlbG9jaXR5GAMgASgCEhYKDkRpZmZlcmVudFNlcnZvGAQgASgCEhMK",
+            "C0NvdXJzZVNlcnZvGAUgASgCEhcKD01haW5FbmdpbmVQb3dlchgGIAEoAhIX",
+            "Cg9Ob3NlRW5naW5lUG93ZXIYByABKAIiwwEKBEFOUEESCgoCSWQYASABKAUS",
+            "JgoIUG9zaXRpb24YAiABKAsyFC5SdWJpbkNvbW0uR2xvYmFsUG9zEisKC09y",
+            "aWVudGF0aW9uGAMgASgLMhYuUnViaW5Db21tLk9yaWVudGF0aW9uEhQKDFNl",
+            "bnNvckJvdHRvbRgEIAEoAhITCgtTZW5zb3JGcm9udBgFIAEoAhIvCg5Db250",
+            "cm9sbFZhbHVlcxgGIAEoCzIXLlJ1YmluQ29tbS5BTlBBQ29udHJvbGwinAEK",
+            "CUFOUEFHcm91cBIPCgdMaWRlcklkGAEgASgFEg8KB0dyb3VwSWQYAiABKAUS",
+            "LgoFQU5QQXMYAyADKAsyHy5SdWJpbkNvbW0uQU5QQUdyb3VwLkFOUEFzRW50",
+            "cnkaPQoKQU5QQXNFbnRyeRILCgNrZXkYASABKAUSHgoFdmFsdWUYAiABKAsy",
+            "Dy5SdWJpbkNvbW0uQU5QQToCOAEibwoFTGF5ZXISDQoFU3RlcFgYASABKAIS",
+            "DQoFU3RlcFkYAiABKAISEwoLTGF5ZXJTaGlmdFgYBSABKAISEwoLTGF5ZXJT",
+            "aGlmdFkYBiABKAISDAoEUm93cxgHIAEoBRIQCghDb2xsdW1ucxgIIAEoBSLq",
+            "AwoMTWlzc2lvbkdyb3VwEgoKAklkGAEgASgFEi0KDVR5cGVPZk1pc3Npb24Y",
+            "AiABKA4yFi5SdWJpbkNvbW0uTWlzc2lvblR5cGUSMQoFQU5QQXMYAyADKAsy",
+            "Ii5SdWJpbkNvbW0uTWlzc2lvbkdyb3VwLkFOUEFzRW50cnkSGAoQRHJvcER1",
+            "cmF0aW9uVGltZRgEIAEoBRIiCgRQYXRoGAUgAygLMhQuUnViaW5Db21tLkds",
+            "b2JhbFBvcxIiCgRab25lGAYgAygLMhQuUnViaW5Db21tLkdsb2JhbFBvcxIT",
+            "CgtNYXhWZWxvY2l0eRgHIAEoAhIgCgZMYXllcnMYCCADKAsyEC5SdWJpbkNv",
+            "bW0uTGF5ZXISEgoKR3JvdXBBbmdsZRgJIAEoAhIeChZMaWRlclRyYW5zbWl0",
+            "RnJlcXVlbmN5GAogASgCEg0KBVN0ZXBaGAsgASgCEhUKDVNjb3V0VmVsb2Np",
+            "dHkYDCABKAISDQoFRGVwdGgYDSABKAISKwoNQ2xvc2VzdEtUU1BvcxgOIAEo",
+            "CzIULlJ1YmluQ29tbS5HbG9iYWxQb3MaPQoKQU5QQXNFbnRyeRILCgNrZXkY",
+            "ASABKAUSHgoFdmFsdWUYAiABKAsyDy5SdWJpbkNvbW0uQU5QQToCOAEirQEK",
+            "B01pc3Npb24SLgoGR3JvdXBzGAEgAygLMh4uUnViaW5Db21tLk1pc3Npb24u",
+            "R3JvdXBzRW50cnkSKgoMS1RTUG9zaXRpb25zGAIgAygLMhQuUnViaW5Db21t",
+            "Lkdsb2JhbFBvcxpGCgtHcm91cHNFbnRyeRILCgNrZXkYASABKAUSJgoFdmFs",
+            "dWUYAiABKAsyFy5SdWJpbkNvbW0uTWlzc2lvbkdyb3VwOgI4ASJZCghPYmpl",
+            "Y3RCQhImCghQb3NpdGlvbhgBIAEoCzIULlJ1YmluQ29tbS5HbG9iYWxQb3MS",
+            "JQoHQkJQb3NlcxgCIAMoCzIULlJ1YmluQ29tbS5HbG9iYWxQb3MiOAoOU2lt",
+            "R2FtZU9iamVjdHMSJgoJT2JqZWN0c0JCGAEgAygLMhMuUnViaW5Db21tLk9i",
+            "amVjdEJCIjUKCUFucGFFcnJvchIRCglUaW1lU3RhbXAYASABKAkSFQoNRXJy",
+            "b3JEaXN0YW5jZRgCIAEoAiKQAQoKR3JvdXBFcnJvchI5CgpBbnBhc0Vycm9y",
+            "GAEgAygLMiUuUnViaW5Db21tLkdyb3VwRXJyb3IuQW5wYXNFcnJvckVudHJ5",
+            "GkcKD0FucGFzRXJyb3JFbnRyeRILCgNrZXkYASABKAUSIwoFdmFsdWUYAiAB",
+            "KAsyFC5SdWJpbkNvbW0uQW5wYUVycm9yOgI4ASKQAQoKRHJvcFBvaW50cxI5",
+            "CgpEcm9wUG9pbnRzGAEgAygLMiUuUnViaW5Db21tLkRyb3BQb2ludHMuRHJv",
+            "cFBvaW50c0VudHJ5GkcKD0Ryb3BQb2ludHNFbnRyeRILCgNrZXkYASABKAUS",
+            "IwoFdmFsdWUYAiABKAsyFC5SdWJpbkNvbW0uR2xvYmFsUG9zOgI4ASKDAQoQ",
+            "QW5wYURpbmFtaWNNb2RlbBI9CglJc1dvcmtpbmcYASADKAsyKi5SdWJpbkNv",
+            "bW0uQW5wYURpbmFtaWNNb2RlbC5Jc1dvcmtpbmdFbnRyeRowCg5Jc1dvcmtp",
+            "bmdFbnRyeRILCgNrZXkYASABKAUSDQoFdmFsdWUYAiABKAg6AjgBIksKDkNv",
+            "bnRyb2xsVmFsdWVzEhYKDkNvdXJzZVZlbG9jaXR5GAEgASgCEhEKCURpZmZl",
+            "cmVudBgCIAEoAhIOCgZDb3Vyc2UYAyABKAIipwEKEFJlZ3VsYXRvckNvbXBs",
+            "ZXgSQwoMQU5QQUNvbnRyb2xsGAEgAygLMi0uUnViaW5Db21tLlJlZ3VsYXRv",
+            "ckNvbXBsZXguQU5QQUNvbnRyb2xsRW50cnkaTgoRQU5QQUNvbnRyb2xsRW50",
+            "cnkSCwoDa2V5GAEgASgFEigKBXZhbHVlGAIgASgLMhkuUnViaW5Db21tLkNv",
+            "bnRyb2xsVmFsdWVzOgI4ASLSAwoHU2ltSW5pdBIrCg1TaW1ab25lQ2VudGVy",
+            "GAEgASgLMhQuUnViaW5Db21tLkdsb2JhbFBvcxIMCgRUaW1lGAIgASgFEhAK",
+            "CEJlYXVmb3J0GAMgASgFEisKDWt0c1NwYXduUG9zZXMYBCADKAsyFC5SdWJp",
+            "bkNvbW0uR2xvYmFsUG9zEiMKBUJ1b3lzGAYgAygLMhQuUnViaW5Db21tLkds",
+            "b2JhbFBvcxIsCgtQcmVjaXBhdGlvbhgHIAEoDjIXLlJ1YmluQ29tbS5QcmVj",
+            "aXBhdGlvbnMSEgoKQU5QQUFtb3VudBgIIAEoBRIUCgxXYXRlckRlbnNpdHkY",
+            "CSABKAISEwoLVGVtcGVyYXR1cmUYCiABKAUSCwoDUFNVGAsgASgFEhEKCVR1",
+            "cmJpZGl0eRgMIAEoAhIRCglFY2hvQW5nbGUYDSABKAISFAoMRWNob0Rpc3Rh",
+            "bmNlGA4gASgCEg0KBUVycm9yGA8gASgCEg8KB0RlbnNpdHkYECABKAISEQoJ",
+            "RnJlcXVlbmN5GBEgASgCEhUKDU5hdkRpc3RvcnRpb24YEiABKAISEAoIS1RT",
+            "RGVwdGgYEyABKAISFgoOU2VhQm90dG9tRGVwdGgYFCABKAIiGQoGQ3VzdG9t",
+            "Eg8KB01lc3NhZ2UYASABKAkipAEKCUFucGFJbktUUxIOCgZBTlBBSWQYASAB",
+            "KA0SDQoFS1RTSWQYAiABKA0SDgoGSG9sZUlkGAMgASgNEg0KBUluS3RzGAQg",
+            "ASgIEikKC0tUU1Bvc2l0aW9uGAUgASgLMhQuUnViaW5Db21tLkdsb2JhbFBv",
+            "cxIuCg5LVFNPcmllbnRhdGlvbhgGIAEoCzIWLlJ1YmluQ29tbS5PcmllbnRh",
+            "dGlvbiKwAgoJQU5QQUFsaXZlEgoKAklkGAEgASgFEhIKCkNvbm5lY3Rpb24Y",
             "AiABKAgSCwoDSU5TGAMgASgIEgsKA0xhZxgEIAEoCBIPCgdDb21wYXNzGAUg",
             "ASgIEhYKDlByZXNzdXJlU2Vuc29yGAYgASgIEhQKDEVjaG9sb3RGcm9udBgH",
             "IAEoCBIVCg1FY2hvbG90Qm90dG9tGAggASgIEgoKAkNWGAkgASgIEhkKEVNl",
@@ -112,12 +123,13 @@ namespace RubinComm {
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::RubinComm.EventType), typeof(global::RubinComm.MissionType), typeof(global::RubinComm.Precipations), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.GlobalPos), global::RubinComm.GlobalPos.Parser, new[]{ "Latitude", "Longitude", "Altitude" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.Orientation), global::RubinComm.Orientation.Parser, new[]{ "X", "Y", "Z" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.ProtoVector3), global::RubinComm.ProtoVector3.Parser, new[]{ "X", "Y", "Z" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.ANPAControll), global::RubinComm.ANPAControll.Parser, new[]{ "LinearVelocity", "ControllForce", "VerticalVelocity", "DifferentServo", "CourseServo", "MainEnginePower", "NoseEnginePower" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.ANPA), global::RubinComm.ANPA.Parser, new[]{ "Id", "Position", "Orientation", "SensorBottom", "SensorFront", "ControllValues" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.ANPAControll), global::RubinComm.ANPAControll.Parser, new[]{ "VerticalVelocity", "DifferentSeervo", "CourseServo", "MainEnginePower", "NoseEnginePower" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.ANPAGroup), global::RubinComm.ANPAGroup.Parser, new[]{ "LiderId", "GroupId", "ANPAs" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.Layer), global::RubinComm.Layer.Parser, new[]{ "StepX", "StepY", "StepZ", "LayerShiftX", "LayerShiftY", "Rows", "Collumns" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.MissionGroup), global::RubinComm.MissionGroup.Parser, new[]{ "Id", "TypeOfMission", "ANPAs", "DropDurationTime", "Path", "Zone", "MaxVelocity", "Layers", "GroupAngle" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.Mission), global::RubinComm.Mission.Parser, new[]{ "Groups", "KTSPosition" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.Layer), global::RubinComm.Layer.Parser, new[]{ "StepX", "StepY", "LayerShiftX", "LayerShiftY", "Rows", "Collumns" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.MissionGroup), global::RubinComm.MissionGroup.Parser, new[]{ "Id", "TypeOfMission", "ANPAs", "DropDurationTime", "Path", "Zone", "MaxVelocity", "Layers", "GroupAngle", "LiderTransmitFrequency", "StepZ", "ScoutVelocity", "Depth", "ClosestKTSPos" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.Mission), global::RubinComm.Mission.Parser, new[]{ "Groups", "KTSPositions" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.ObjectBB), global::RubinComm.ObjectBB.Parser, new[]{ "Position", "BBPoses" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.SimGameObjects), global::RubinComm.SimGameObjects.Parser, new[]{ "ObjectsBB" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.AnpaError), global::RubinComm.AnpaError.Parser, new[]{ "TimeStamp", "ErrorDistance" }, null, null, null, null),
@@ -126,8 +138,9 @@ namespace RubinComm {
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.AnpaDinamicModel), global::RubinComm.AnpaDinamicModel.Parser, new[]{ "IsWorking" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.ControllValues), global::RubinComm.ControllValues.Parser, new[]{ "CourseVelocity", "Different", "Course" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.RegulatorComplex), global::RubinComm.RegulatorComplex.Parser, new[]{ "ANPAControll" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.SimInit), global::RubinComm.SimInit.Parser, new[]{ "SimZoneCenter", "Time", "Beaufort", "KtsSpawnPos", "Buoys", "Precipation", "ANPAAmount", "WaterDensity", "Temperature", "PSU", "Turbidity", "EchoAngle", "EchoDistance", "Error", "Density", "Frequency" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.SimInit), global::RubinComm.SimInit.Parser, new[]{ "SimZoneCenter", "Time", "Beaufort", "KtsSpawnPoses", "Buoys", "Precipation", "ANPAAmount", "WaterDensity", "Temperature", "PSU", "Turbidity", "EchoAngle", "EchoDistance", "Error", "Density", "Frequency", "NavDistortion", "KTSDepth", "SeaBottomDepth" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.Custom), global::RubinComm.Custom.Parser, new[]{ "Message" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.AnpaInKTS), global::RubinComm.AnpaInKTS.Parser, new[]{ "ANPAId", "KTSId", "HoleId", "InKts", "KTSPosition", "KTSOrientation" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.ANPAAlive), global::RubinComm.ANPAAlive.Parser, new[]{ "Id", "Connection", "INS", "Lag", "Compass", "PressureSensor", "EcholotFront", "EcholotBottom", "CV", "SeismicTomography", "FloatingDiffSensor", "ActuatorModule", "BatteryControllSystem", "BatteryPercentage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.SGRUGroupTrajectory), global::RubinComm.SGRUGroupTrajectory.Parser, new[]{ "GroupId", "GroupTrajectory", "AnpasTrajectory" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::RubinComm.ANPAEvent), global::RubinComm.ANPAEvent.Parser, new[]{ "CouldSkip", "IsAnpa", "ANPAId", "IsGroup", "GroupId", "EventType", "TimeStamp" }, null, null, null, null)
@@ -727,6 +740,701 @@ namespace RubinComm {
 
   }
 
+  public sealed partial class ProtoVector3 : pb::IMessage<ProtoVector3>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ProtoVector3> _parser = new pb::MessageParser<ProtoVector3>(() => new ProtoVector3());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ProtoVector3> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ProtoVector3() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ProtoVector3(ProtoVector3 other) : this() {
+      x_ = other.x_;
+      y_ = other.y_;
+      z_ = other.z_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ProtoVector3 Clone() {
+      return new ProtoVector3(this);
+    }
+
+    /// <summary>Field number for the "X" field.</summary>
+    public const int XFieldNumber = 1;
+    private float x_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float X {
+      get { return x_; }
+      set {
+        x_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Y" field.</summary>
+    public const int YFieldNumber = 2;
+    private float y_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float Y {
+      get { return y_; }
+      set {
+        y_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Z" field.</summary>
+    public const int ZFieldNumber = 3;
+    private float z_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float Z {
+      get { return z_; }
+      set {
+        z_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ProtoVector3);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ProtoVector3 other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(X, other.X)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Y, other.Y)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Z, other.Z)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (X != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(X);
+      if (Y != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Y);
+      if (Z != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Z);
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (X != 0F) {
+        output.WriteRawTag(13);
+        output.WriteFloat(X);
+      }
+      if (Y != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(Y);
+      }
+      if (Z != 0F) {
+        output.WriteRawTag(29);
+        output.WriteFloat(Z);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (X != 0F) {
+        output.WriteRawTag(13);
+        output.WriteFloat(X);
+      }
+      if (Y != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(Y);
+      }
+      if (Z != 0F) {
+        output.WriteRawTag(29);
+        output.WriteFloat(Z);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (X != 0F) {
+        size += 1 + 4;
+      }
+      if (Y != 0F) {
+        size += 1 + 4;
+      }
+      if (Z != 0F) {
+        size += 1 + 4;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ProtoVector3 other) {
+      if (other == null) {
+        return;
+      }
+      if (other.X != 0F) {
+        X = other.X;
+      }
+      if (other.Y != 0F) {
+        Y = other.Y;
+      }
+      if (other.Z != 0F) {
+        Z = other.Z;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 13: {
+            X = input.ReadFloat();
+            break;
+          }
+          case 21: {
+            Y = input.ReadFloat();
+            break;
+          }
+          case 29: {
+            Z = input.ReadFloat();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 13: {
+            X = input.ReadFloat();
+            break;
+          }
+          case 21: {
+            Y = input.ReadFloat();
+            break;
+          }
+          case 29: {
+            Z = input.ReadFloat();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Here lays controll vals from anpa motors and etc.
+  /// </summary>
+  public sealed partial class ANPAControll : pb::IMessage<ANPAControll>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ANPAControll> _parser = new pb::MessageParser<ANPAControll>(() => new ANPAControll());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ANPAControll> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ANPAControll() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ANPAControll(ANPAControll other) : this() {
+      linearVelocity_ = other.linearVelocity_ != null ? other.linearVelocity_.Clone() : null;
+      controllForce_ = other.controllForce_ != null ? other.controllForce_.Clone() : null;
+      verticalVelocity_ = other.verticalVelocity_;
+      differentServo_ = other.differentServo_;
+      courseServo_ = other.courseServo_;
+      mainEnginePower_ = other.mainEnginePower_;
+      noseEnginePower_ = other.noseEnginePower_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ANPAControll Clone() {
+      return new ANPAControll(this);
+    }
+
+    /// <summary>Field number for the "LinearVelocity" field.</summary>
+    public const int LinearVelocityFieldNumber = 1;
+    private global::RubinComm.ProtoVector3 linearVelocity_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::RubinComm.ProtoVector3 LinearVelocity {
+      get { return linearVelocity_; }
+      set {
+        linearVelocity_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ControllForce" field.</summary>
+    public const int ControllForceFieldNumber = 2;
+    private global::RubinComm.ProtoVector3 controllForce_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::RubinComm.ProtoVector3 ControllForce {
+      get { return controllForce_; }
+      set {
+        controllForce_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "VerticalVelocity" field.</summary>
+    public const int VerticalVelocityFieldNumber = 3;
+    private float verticalVelocity_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float VerticalVelocity {
+      get { return verticalVelocity_; }
+      set {
+        verticalVelocity_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "DifferentServo" field.</summary>
+    public const int DifferentServoFieldNumber = 4;
+    private float differentServo_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float DifferentServo {
+      get { return differentServo_; }
+      set {
+        differentServo_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CourseServo" field.</summary>
+    public const int CourseServoFieldNumber = 5;
+    private float courseServo_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float CourseServo {
+      get { return courseServo_; }
+      set {
+        courseServo_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "MainEnginePower" field.</summary>
+    public const int MainEnginePowerFieldNumber = 6;
+    private float mainEnginePower_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float MainEnginePower {
+      get { return mainEnginePower_; }
+      set {
+        mainEnginePower_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "NoseEnginePower" field.</summary>
+    public const int NoseEnginePowerFieldNumber = 7;
+    private float noseEnginePower_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float NoseEnginePower {
+      get { return noseEnginePower_; }
+      set {
+        noseEnginePower_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ANPAControll);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ANPAControll other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(LinearVelocity, other.LinearVelocity)) return false;
+      if (!object.Equals(ControllForce, other.ControllForce)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(VerticalVelocity, other.VerticalVelocity)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(DifferentServo, other.DifferentServo)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(CourseServo, other.CourseServo)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(MainEnginePower, other.MainEnginePower)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(NoseEnginePower, other.NoseEnginePower)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (linearVelocity_ != null) hash ^= LinearVelocity.GetHashCode();
+      if (controllForce_ != null) hash ^= ControllForce.GetHashCode();
+      if (VerticalVelocity != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(VerticalVelocity);
+      if (DifferentServo != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(DifferentServo);
+      if (CourseServo != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(CourseServo);
+      if (MainEnginePower != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(MainEnginePower);
+      if (NoseEnginePower != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(NoseEnginePower);
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (linearVelocity_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(LinearVelocity);
+      }
+      if (controllForce_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ControllForce);
+      }
+      if (VerticalVelocity != 0F) {
+        output.WriteRawTag(29);
+        output.WriteFloat(VerticalVelocity);
+      }
+      if (DifferentServo != 0F) {
+        output.WriteRawTag(37);
+        output.WriteFloat(DifferentServo);
+      }
+      if (CourseServo != 0F) {
+        output.WriteRawTag(45);
+        output.WriteFloat(CourseServo);
+      }
+      if (MainEnginePower != 0F) {
+        output.WriteRawTag(53);
+        output.WriteFloat(MainEnginePower);
+      }
+      if (NoseEnginePower != 0F) {
+        output.WriteRawTag(61);
+        output.WriteFloat(NoseEnginePower);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (linearVelocity_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(LinearVelocity);
+      }
+      if (controllForce_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ControllForce);
+      }
+      if (VerticalVelocity != 0F) {
+        output.WriteRawTag(29);
+        output.WriteFloat(VerticalVelocity);
+      }
+      if (DifferentServo != 0F) {
+        output.WriteRawTag(37);
+        output.WriteFloat(DifferentServo);
+      }
+      if (CourseServo != 0F) {
+        output.WriteRawTag(45);
+        output.WriteFloat(CourseServo);
+      }
+      if (MainEnginePower != 0F) {
+        output.WriteRawTag(53);
+        output.WriteFloat(MainEnginePower);
+      }
+      if (NoseEnginePower != 0F) {
+        output.WriteRawTag(61);
+        output.WriteFloat(NoseEnginePower);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (linearVelocity_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(LinearVelocity);
+      }
+      if (controllForce_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ControllForce);
+      }
+      if (VerticalVelocity != 0F) {
+        size += 1 + 4;
+      }
+      if (DifferentServo != 0F) {
+        size += 1 + 4;
+      }
+      if (CourseServo != 0F) {
+        size += 1 + 4;
+      }
+      if (MainEnginePower != 0F) {
+        size += 1 + 4;
+      }
+      if (NoseEnginePower != 0F) {
+        size += 1 + 4;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ANPAControll other) {
+      if (other == null) {
+        return;
+      }
+      if (other.linearVelocity_ != null) {
+        if (linearVelocity_ == null) {
+          LinearVelocity = new global::RubinComm.ProtoVector3();
+        }
+        LinearVelocity.MergeFrom(other.LinearVelocity);
+      }
+      if (other.controllForce_ != null) {
+        if (controllForce_ == null) {
+          ControllForce = new global::RubinComm.ProtoVector3();
+        }
+        ControllForce.MergeFrom(other.ControllForce);
+      }
+      if (other.VerticalVelocity != 0F) {
+        VerticalVelocity = other.VerticalVelocity;
+      }
+      if (other.DifferentServo != 0F) {
+        DifferentServo = other.DifferentServo;
+      }
+      if (other.CourseServo != 0F) {
+        CourseServo = other.CourseServo;
+      }
+      if (other.MainEnginePower != 0F) {
+        MainEnginePower = other.MainEnginePower;
+      }
+      if (other.NoseEnginePower != 0F) {
+        NoseEnginePower = other.NoseEnginePower;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (linearVelocity_ == null) {
+              LinearVelocity = new global::RubinComm.ProtoVector3();
+            }
+            input.ReadMessage(LinearVelocity);
+            break;
+          }
+          case 18: {
+            if (controllForce_ == null) {
+              ControllForce = new global::RubinComm.ProtoVector3();
+            }
+            input.ReadMessage(ControllForce);
+            break;
+          }
+          case 29: {
+            VerticalVelocity = input.ReadFloat();
+            break;
+          }
+          case 37: {
+            DifferentServo = input.ReadFloat();
+            break;
+          }
+          case 45: {
+            CourseServo = input.ReadFloat();
+            break;
+          }
+          case 53: {
+            MainEnginePower = input.ReadFloat();
+            break;
+          }
+          case 61: {
+            NoseEnginePower = input.ReadFloat();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (linearVelocity_ == null) {
+              LinearVelocity = new global::RubinComm.ProtoVector3();
+            }
+            input.ReadMessage(LinearVelocity);
+            break;
+          }
+          case 18: {
+            if (controllForce_ == null) {
+              ControllForce = new global::RubinComm.ProtoVector3();
+            }
+            input.ReadMessage(ControllForce);
+            break;
+          }
+          case 29: {
+            VerticalVelocity = input.ReadFloat();
+            break;
+          }
+          case 37: {
+            DifferentServo = input.ReadFloat();
+            break;
+          }
+          case 45: {
+            CourseServo = input.ReadFloat();
+            break;
+          }
+          case 53: {
+            MainEnginePower = input.ReadFloat();
+            break;
+          }
+          case 61: {
+            NoseEnginePower = input.ReadFloat();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class ANPA : pb::IMessage<ANPA>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -741,7 +1449,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[2]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1134,346 +1842,6 @@ namespace RubinComm {
 
   }
 
-  /// <summary>
-  /// Here lays controll vals from anpa motors and etc.
-  /// </summary>
-  public sealed partial class ANPAControll : pb::IMessage<ANPAControll>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ANPAControll> _parser = new pb::MessageParser<ANPAControll>(() => new ANPAControll());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ANPAControll> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ANPAControll() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ANPAControll(ANPAControll other) : this() {
-      verticalVelocity_ = other.verticalVelocity_;
-      differentSeervo_ = other.differentSeervo_;
-      courseServo_ = other.courseServo_;
-      mainEnginePower_ = other.mainEnginePower_;
-      noseEnginePower_ = other.noseEnginePower_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ANPAControll Clone() {
-      return new ANPAControll(this);
-    }
-
-    /// <summary>Field number for the "VerticalVelocity" field.</summary>
-    public const int VerticalVelocityFieldNumber = 1;
-    private float verticalVelocity_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public float VerticalVelocity {
-      get { return verticalVelocity_; }
-      set {
-        verticalVelocity_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "DifferentSeervo" field.</summary>
-    public const int DifferentSeervoFieldNumber = 2;
-    private float differentSeervo_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public float DifferentSeervo {
-      get { return differentSeervo_; }
-      set {
-        differentSeervo_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "CourseServo" field.</summary>
-    public const int CourseServoFieldNumber = 3;
-    private float courseServo_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public float CourseServo {
-      get { return courseServo_; }
-      set {
-        courseServo_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "MainEnginePower" field.</summary>
-    public const int MainEnginePowerFieldNumber = 4;
-    private float mainEnginePower_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public float MainEnginePower {
-      get { return mainEnginePower_; }
-      set {
-        mainEnginePower_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "NoseEnginePower" field.</summary>
-    public const int NoseEnginePowerFieldNumber = 5;
-    private float noseEnginePower_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public float NoseEnginePower {
-      get { return noseEnginePower_; }
-      set {
-        noseEnginePower_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as ANPAControll);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ANPAControll other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(VerticalVelocity, other.VerticalVelocity)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(DifferentSeervo, other.DifferentSeervo)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(CourseServo, other.CourseServo)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(MainEnginePower, other.MainEnginePower)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(NoseEnginePower, other.NoseEnginePower)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (VerticalVelocity != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(VerticalVelocity);
-      if (DifferentSeervo != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(DifferentSeervo);
-      if (CourseServo != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(CourseServo);
-      if (MainEnginePower != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(MainEnginePower);
-      if (NoseEnginePower != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(NoseEnginePower);
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (VerticalVelocity != 0F) {
-        output.WriteRawTag(13);
-        output.WriteFloat(VerticalVelocity);
-      }
-      if (DifferentSeervo != 0F) {
-        output.WriteRawTag(21);
-        output.WriteFloat(DifferentSeervo);
-      }
-      if (CourseServo != 0F) {
-        output.WriteRawTag(29);
-        output.WriteFloat(CourseServo);
-      }
-      if (MainEnginePower != 0F) {
-        output.WriteRawTag(37);
-        output.WriteFloat(MainEnginePower);
-      }
-      if (NoseEnginePower != 0F) {
-        output.WriteRawTag(45);
-        output.WriteFloat(NoseEnginePower);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (VerticalVelocity != 0F) {
-        output.WriteRawTag(13);
-        output.WriteFloat(VerticalVelocity);
-      }
-      if (DifferentSeervo != 0F) {
-        output.WriteRawTag(21);
-        output.WriteFloat(DifferentSeervo);
-      }
-      if (CourseServo != 0F) {
-        output.WriteRawTag(29);
-        output.WriteFloat(CourseServo);
-      }
-      if (MainEnginePower != 0F) {
-        output.WriteRawTag(37);
-        output.WriteFloat(MainEnginePower);
-      }
-      if (NoseEnginePower != 0F) {
-        output.WriteRawTag(45);
-        output.WriteFloat(NoseEnginePower);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (VerticalVelocity != 0F) {
-        size += 1 + 4;
-      }
-      if (DifferentSeervo != 0F) {
-        size += 1 + 4;
-      }
-      if (CourseServo != 0F) {
-        size += 1 + 4;
-      }
-      if (MainEnginePower != 0F) {
-        size += 1 + 4;
-      }
-      if (NoseEnginePower != 0F) {
-        size += 1 + 4;
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ANPAControll other) {
-      if (other == null) {
-        return;
-      }
-      if (other.VerticalVelocity != 0F) {
-        VerticalVelocity = other.VerticalVelocity;
-      }
-      if (other.DifferentSeervo != 0F) {
-        DifferentSeervo = other.DifferentSeervo;
-      }
-      if (other.CourseServo != 0F) {
-        CourseServo = other.CourseServo;
-      }
-      if (other.MainEnginePower != 0F) {
-        MainEnginePower = other.MainEnginePower;
-      }
-      if (other.NoseEnginePower != 0F) {
-        NoseEnginePower = other.NoseEnginePower;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 13: {
-            VerticalVelocity = input.ReadFloat();
-            break;
-          }
-          case 21: {
-            DifferentSeervo = input.ReadFloat();
-            break;
-          }
-          case 29: {
-            CourseServo = input.ReadFloat();
-            break;
-          }
-          case 37: {
-            MainEnginePower = input.ReadFloat();
-            break;
-          }
-          case 45: {
-            NoseEnginePower = input.ReadFloat();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 13: {
-            VerticalVelocity = input.ReadFloat();
-            break;
-          }
-          case 21: {
-            DifferentSeervo = input.ReadFloat();
-            break;
-          }
-          case 29: {
-            CourseServo = input.ReadFloat();
-            break;
-          }
-          case 37: {
-            MainEnginePower = input.ReadFloat();
-            break;
-          }
-          case 45: {
-            NoseEnginePower = input.ReadFloat();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   public sealed partial class ANPAGroup : pb::IMessage<ANPAGroup>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1488,7 +1856,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[4]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1743,7 +2111,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[5]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1765,7 +2133,6 @@ namespace RubinComm {
     public Layer(Layer other) : this() {
       stepX_ = other.stepX_;
       stepY_ = other.stepY_;
-      stepZ_ = other.stepZ_;
       layerShiftX_ = other.layerShiftX_;
       layerShiftY_ = other.layerShiftY_;
       rows_ = other.rows_;
@@ -1803,20 +2170,8 @@ namespace RubinComm {
       }
     }
 
-    /// <summary>Field number for the "StepZ" field.</summary>
-    public const int StepZFieldNumber = 3;
-    private float stepZ_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public float StepZ {
-      get { return stepZ_; }
-      set {
-        stepZ_ = value;
-      }
-    }
-
     /// <summary>Field number for the "LayerShiftX" field.</summary>
-    public const int LayerShiftXFieldNumber = 4;
+    public const int LayerShiftXFieldNumber = 5;
     private float layerShiftX_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1828,7 +2183,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "LayerShiftY" field.</summary>
-    public const int LayerShiftYFieldNumber = 5;
+    public const int LayerShiftYFieldNumber = 6;
     private float layerShiftY_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1840,7 +2195,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "Rows" field.</summary>
-    public const int RowsFieldNumber = 6;
+    public const int RowsFieldNumber = 7;
     private int rows_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1852,7 +2207,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "Collumns" field.</summary>
-    public const int CollumnsFieldNumber = 7;
+    public const int CollumnsFieldNumber = 8;
     private int collumns_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1880,7 +2235,6 @@ namespace RubinComm {
       }
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(StepX, other.StepX)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(StepY, other.StepY)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(StepZ, other.StepZ)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(LayerShiftX, other.LayerShiftX)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(LayerShiftY, other.LayerShiftY)) return false;
       if (Rows != other.Rows) return false;
@@ -1894,7 +2248,6 @@ namespace RubinComm {
       int hash = 1;
       if (StepX != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(StepX);
       if (StepY != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(StepY);
-      if (StepZ != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(StepZ);
       if (LayerShiftX != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(LayerShiftX);
       if (LayerShiftY != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(LayerShiftY);
       if (Rows != 0) hash ^= Rows.GetHashCode();
@@ -1925,24 +2278,20 @@ namespace RubinComm {
         output.WriteRawTag(21);
         output.WriteFloat(StepY);
       }
-      if (StepZ != 0F) {
-        output.WriteRawTag(29);
-        output.WriteFloat(StepZ);
-      }
       if (LayerShiftX != 0F) {
-        output.WriteRawTag(37);
+        output.WriteRawTag(45);
         output.WriteFloat(LayerShiftX);
       }
       if (LayerShiftY != 0F) {
-        output.WriteRawTag(45);
+        output.WriteRawTag(53);
         output.WriteFloat(LayerShiftY);
       }
       if (Rows != 0) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(56);
         output.WriteInt32(Rows);
       }
       if (Collumns != 0) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(64);
         output.WriteInt32(Collumns);
       }
       if (_unknownFields != null) {
@@ -1963,24 +2312,20 @@ namespace RubinComm {
         output.WriteRawTag(21);
         output.WriteFloat(StepY);
       }
-      if (StepZ != 0F) {
-        output.WriteRawTag(29);
-        output.WriteFloat(StepZ);
-      }
       if (LayerShiftX != 0F) {
-        output.WriteRawTag(37);
+        output.WriteRawTag(45);
         output.WriteFloat(LayerShiftX);
       }
       if (LayerShiftY != 0F) {
-        output.WriteRawTag(45);
+        output.WriteRawTag(53);
         output.WriteFloat(LayerShiftY);
       }
       if (Rows != 0) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(56);
         output.WriteInt32(Rows);
       }
       if (Collumns != 0) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(64);
         output.WriteInt32(Collumns);
       }
       if (_unknownFields != null) {
@@ -1997,9 +2342,6 @@ namespace RubinComm {
         size += 1 + 4;
       }
       if (StepY != 0F) {
-        size += 1 + 4;
-      }
-      if (StepZ != 0F) {
         size += 1 + 4;
       }
       if (LayerShiftX != 0F) {
@@ -2031,9 +2373,6 @@ namespace RubinComm {
       }
       if (other.StepY != 0F) {
         StepY = other.StepY;
-      }
-      if (other.StepZ != 0F) {
-        StepZ = other.StepZ;
       }
       if (other.LayerShiftX != 0F) {
         LayerShiftX = other.LayerShiftX;
@@ -2070,23 +2409,19 @@ namespace RubinComm {
             StepY = input.ReadFloat();
             break;
           }
-          case 29: {
-            StepZ = input.ReadFloat();
-            break;
-          }
-          case 37: {
+          case 45: {
             LayerShiftX = input.ReadFloat();
             break;
           }
-          case 45: {
+          case 53: {
             LayerShiftY = input.ReadFloat();
             break;
           }
-          case 48: {
+          case 56: {
             Rows = input.ReadInt32();
             break;
           }
-          case 56: {
+          case 64: {
             Collumns = input.ReadInt32();
             break;
           }
@@ -2113,23 +2448,19 @@ namespace RubinComm {
             StepY = input.ReadFloat();
             break;
           }
-          case 29: {
-            StepZ = input.ReadFloat();
-            break;
-          }
-          case 37: {
+          case 45: {
             LayerShiftX = input.ReadFloat();
             break;
           }
-          case 45: {
+          case 53: {
             LayerShiftY = input.ReadFloat();
             break;
           }
-          case 48: {
+          case 56: {
             Rows = input.ReadInt32();
             break;
           }
-          case 56: {
+          case 64: {
             Collumns = input.ReadInt32();
             break;
           }
@@ -2154,7 +2485,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[6]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2183,6 +2514,11 @@ namespace RubinComm {
       maxVelocity_ = other.maxVelocity_;
       layers_ = other.layers_.Clone();
       groupAngle_ = other.groupAngle_;
+      liderTransmitFrequency_ = other.liderTransmitFrequency_;
+      stepZ_ = other.stepZ_;
+      scoutVelocity_ = other.scoutVelocity_;
+      depth_ = other.depth_;
+      closestKTSPos_ = other.closestKTSPos_ != null ? other.closestKTSPos_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2296,6 +2632,66 @@ namespace RubinComm {
       }
     }
 
+    /// <summary>Field number for the "LiderTransmitFrequency" field.</summary>
+    public const int LiderTransmitFrequencyFieldNumber = 10;
+    private float liderTransmitFrequency_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float LiderTransmitFrequency {
+      get { return liderTransmitFrequency_; }
+      set {
+        liderTransmitFrequency_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "StepZ" field.</summary>
+    public const int StepZFieldNumber = 11;
+    private float stepZ_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float StepZ {
+      get { return stepZ_; }
+      set {
+        stepZ_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ScoutVelocity" field.</summary>
+    public const int ScoutVelocityFieldNumber = 12;
+    private float scoutVelocity_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float ScoutVelocity {
+      get { return scoutVelocity_; }
+      set {
+        scoutVelocity_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Depth" field.</summary>
+    public const int DepthFieldNumber = 13;
+    private float depth_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float Depth {
+      get { return depth_; }
+      set {
+        depth_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ClosestKTSPos" field.</summary>
+    public const int ClosestKTSPosFieldNumber = 14;
+    private global::RubinComm.GlobalPos closestKTSPos_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::RubinComm.GlobalPos ClosestKTSPos {
+      get { return closestKTSPos_; }
+      set {
+        closestKTSPos_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2320,6 +2716,11 @@ namespace RubinComm {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(MaxVelocity, other.MaxVelocity)) return false;
       if(!layers_.Equals(other.layers_)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(GroupAngle, other.GroupAngle)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(LiderTransmitFrequency, other.LiderTransmitFrequency)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(StepZ, other.StepZ)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ScoutVelocity, other.ScoutVelocity)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Depth, other.Depth)) return false;
+      if (!object.Equals(ClosestKTSPos, other.ClosestKTSPos)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2336,6 +2737,11 @@ namespace RubinComm {
       if (MaxVelocity != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(MaxVelocity);
       hash ^= layers_.GetHashCode();
       if (GroupAngle != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(GroupAngle);
+      if (LiderTransmitFrequency != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(LiderTransmitFrequency);
+      if (StepZ != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(StepZ);
+      if (ScoutVelocity != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ScoutVelocity);
+      if (Depth != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Depth);
+      if (closestKTSPos_ != null) hash ^= ClosestKTSPos.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2378,6 +2784,26 @@ namespace RubinComm {
         output.WriteRawTag(77);
         output.WriteFloat(GroupAngle);
       }
+      if (LiderTransmitFrequency != 0F) {
+        output.WriteRawTag(85);
+        output.WriteFloat(LiderTransmitFrequency);
+      }
+      if (StepZ != 0F) {
+        output.WriteRawTag(93);
+        output.WriteFloat(StepZ);
+      }
+      if (ScoutVelocity != 0F) {
+        output.WriteRawTag(101);
+        output.WriteFloat(ScoutVelocity);
+      }
+      if (Depth != 0F) {
+        output.WriteRawTag(109);
+        output.WriteFloat(Depth);
+      }
+      if (closestKTSPos_ != null) {
+        output.WriteRawTag(114);
+        output.WriteMessage(ClosestKTSPos);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2412,6 +2838,26 @@ namespace RubinComm {
         output.WriteRawTag(77);
         output.WriteFloat(GroupAngle);
       }
+      if (LiderTransmitFrequency != 0F) {
+        output.WriteRawTag(85);
+        output.WriteFloat(LiderTransmitFrequency);
+      }
+      if (StepZ != 0F) {
+        output.WriteRawTag(93);
+        output.WriteFloat(StepZ);
+      }
+      if (ScoutVelocity != 0F) {
+        output.WriteRawTag(101);
+        output.WriteFloat(ScoutVelocity);
+      }
+      if (Depth != 0F) {
+        output.WriteRawTag(109);
+        output.WriteFloat(Depth);
+      }
+      if (closestKTSPos_ != null) {
+        output.WriteRawTag(114);
+        output.WriteMessage(ClosestKTSPos);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2440,6 +2886,21 @@ namespace RubinComm {
       size += layers_.CalculateSize(_repeated_layers_codec);
       if (GroupAngle != 0F) {
         size += 1 + 4;
+      }
+      if (LiderTransmitFrequency != 0F) {
+        size += 1 + 4;
+      }
+      if (StepZ != 0F) {
+        size += 1 + 4;
+      }
+      if (ScoutVelocity != 0F) {
+        size += 1 + 4;
+      }
+      if (Depth != 0F) {
+        size += 1 + 4;
+      }
+      if (closestKTSPos_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ClosestKTSPos);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2471,6 +2932,24 @@ namespace RubinComm {
       layers_.Add(other.layers_);
       if (other.GroupAngle != 0F) {
         GroupAngle = other.GroupAngle;
+      }
+      if (other.LiderTransmitFrequency != 0F) {
+        LiderTransmitFrequency = other.LiderTransmitFrequency;
+      }
+      if (other.StepZ != 0F) {
+        StepZ = other.StepZ;
+      }
+      if (other.ScoutVelocity != 0F) {
+        ScoutVelocity = other.ScoutVelocity;
+      }
+      if (other.Depth != 0F) {
+        Depth = other.Depth;
+      }
+      if (other.closestKTSPos_ != null) {
+        if (closestKTSPos_ == null) {
+          ClosestKTSPos = new global::RubinComm.GlobalPos();
+        }
+        ClosestKTSPos.MergeFrom(other.ClosestKTSPos);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2521,6 +3000,29 @@ namespace RubinComm {
           }
           case 77: {
             GroupAngle = input.ReadFloat();
+            break;
+          }
+          case 85: {
+            LiderTransmitFrequency = input.ReadFloat();
+            break;
+          }
+          case 93: {
+            StepZ = input.ReadFloat();
+            break;
+          }
+          case 101: {
+            ScoutVelocity = input.ReadFloat();
+            break;
+          }
+          case 109: {
+            Depth = input.ReadFloat();
+            break;
+          }
+          case 114: {
+            if (closestKTSPos_ == null) {
+              ClosestKTSPos = new global::RubinComm.GlobalPos();
+            }
+            input.ReadMessage(ClosestKTSPos);
             break;
           }
         }
@@ -2574,6 +3076,29 @@ namespace RubinComm {
             GroupAngle = input.ReadFloat();
             break;
           }
+          case 85: {
+            LiderTransmitFrequency = input.ReadFloat();
+            break;
+          }
+          case 93: {
+            StepZ = input.ReadFloat();
+            break;
+          }
+          case 101: {
+            ScoutVelocity = input.ReadFloat();
+            break;
+          }
+          case 109: {
+            Depth = input.ReadFloat();
+            break;
+          }
+          case 114: {
+            if (closestKTSPos_ == null) {
+              ClosestKTSPos = new global::RubinComm.GlobalPos();
+            }
+            input.ReadMessage(ClosestKTSPos);
+            break;
+          }
         }
       }
     }
@@ -2595,7 +3120,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[7]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2616,7 +3141,7 @@ namespace RubinComm {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Mission(Mission other) : this() {
       groups_ = other.groups_.Clone();
-      kTSPosition_ = other.kTSPosition_ != null ? other.kTSPosition_.Clone() : null;
+      kTSPositions_ = other.kTSPositions_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2637,16 +3162,15 @@ namespace RubinComm {
       get { return groups_; }
     }
 
-    /// <summary>Field number for the "KTSPosition" field.</summary>
-    public const int KTSPositionFieldNumber = 2;
-    private global::RubinComm.GlobalPos kTSPosition_;
+    /// <summary>Field number for the "KTSPositions" field.</summary>
+    public const int KTSPositionsFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::RubinComm.GlobalPos> _repeated_kTSPositions_codec
+        = pb::FieldCodec.ForMessage(18, global::RubinComm.GlobalPos.Parser);
+    private readonly pbc::RepeatedField<global::RubinComm.GlobalPos> kTSPositions_ = new pbc::RepeatedField<global::RubinComm.GlobalPos>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::RubinComm.GlobalPos KTSPosition {
-      get { return kTSPosition_; }
-      set {
-        kTSPosition_ = value;
-      }
+    public pbc::RepeatedField<global::RubinComm.GlobalPos> KTSPositions {
+      get { return kTSPositions_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2665,7 +3189,7 @@ namespace RubinComm {
         return true;
       }
       if (!Groups.Equals(other.Groups)) return false;
-      if (!object.Equals(KTSPosition, other.KTSPosition)) return false;
+      if(!kTSPositions_.Equals(other.kTSPositions_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2674,7 +3198,7 @@ namespace RubinComm {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= Groups.GetHashCode();
-      if (kTSPosition_ != null) hash ^= KTSPosition.GetHashCode();
+      hash ^= kTSPositions_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2694,10 +3218,7 @@ namespace RubinComm {
       output.WriteRawMessage(this);
     #else
       groups_.WriteTo(output, _map_groups_codec);
-      if (kTSPosition_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(KTSPosition);
-      }
+      kTSPositions_.WriteTo(output, _repeated_kTSPositions_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2709,10 +3230,7 @@ namespace RubinComm {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       groups_.WriteTo(ref output, _map_groups_codec);
-      if (kTSPosition_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(KTSPosition);
-      }
+      kTSPositions_.WriteTo(ref output, _repeated_kTSPositions_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2724,9 +3242,7 @@ namespace RubinComm {
     public int CalculateSize() {
       int size = 0;
       size += groups_.CalculateSize(_map_groups_codec);
-      if (kTSPosition_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(KTSPosition);
-      }
+      size += kTSPositions_.CalculateSize(_repeated_kTSPositions_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2740,12 +3256,7 @@ namespace RubinComm {
         return;
       }
       groups_.Add(other.groups_);
-      if (other.kTSPosition_ != null) {
-        if (kTSPosition_ == null) {
-          KTSPosition = new global::RubinComm.GlobalPos();
-        }
-        KTSPosition.MergeFrom(other.KTSPosition);
-      }
+      kTSPositions_.Add(other.kTSPositions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2766,10 +3277,7 @@ namespace RubinComm {
             break;
           }
           case 18: {
-            if (kTSPosition_ == null) {
-              KTSPosition = new global::RubinComm.GlobalPos();
-            }
-            input.ReadMessage(KTSPosition);
+            kTSPositions_.AddEntriesFrom(input, _repeated_kTSPositions_codec);
             break;
           }
         }
@@ -2792,10 +3300,7 @@ namespace RubinComm {
             break;
           }
           case 18: {
-            if (kTSPosition_ == null) {
-              KTSPosition = new global::RubinComm.GlobalPos();
-            }
-            input.ReadMessage(KTSPosition);
+            kTSPositions_.AddEntriesFrom(ref input, _repeated_kTSPositions_codec);
             break;
           }
         }
@@ -2822,7 +3327,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[8]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3052,7 +3557,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[9]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3230,7 +3735,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[10]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3456,7 +3961,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[11]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3634,7 +4139,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[12]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3818,7 +4323,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[13]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3999,7 +4504,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[14]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4271,7 +4776,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[15]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4452,7 +4957,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[16]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4475,7 +4980,7 @@ namespace RubinComm {
       simZoneCenter_ = other.simZoneCenter_ != null ? other.simZoneCenter_.Clone() : null;
       time_ = other.time_;
       beaufort_ = other.beaufort_;
-      ktsSpawnPos_ = other.ktsSpawnPos_ != null ? other.ktsSpawnPos_.Clone() : null;
+      ktsSpawnPoses_ = other.ktsSpawnPoses_.Clone();
       buoys_ = other.buoys_.Clone();
       precipation_ = other.precipation_;
       aNPAAmount_ = other.aNPAAmount_;
@@ -4488,6 +4993,9 @@ namespace RubinComm {
       error_ = other.error_;
       density_ = other.density_;
       frequency_ = other.frequency_;
+      navDistortion_ = other.navDistortion_;
+      kTSDepth_ = other.kTSDepth_;
+      seaBottomDepth_ = other.seaBottomDepth_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4539,16 +5047,15 @@ namespace RubinComm {
       }
     }
 
-    /// <summary>Field number for the "KtsSpawnPos" field.</summary>
-    public const int KtsSpawnPosFieldNumber = 4;
-    private global::RubinComm.GlobalPos ktsSpawnPos_;
+    /// <summary>Field number for the "ktsSpawnPoses" field.</summary>
+    public const int KtsSpawnPosesFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::RubinComm.GlobalPos> _repeated_ktsSpawnPoses_codec
+        = pb::FieldCodec.ForMessage(34, global::RubinComm.GlobalPos.Parser);
+    private readonly pbc::RepeatedField<global::RubinComm.GlobalPos> ktsSpawnPoses_ = new pbc::RepeatedField<global::RubinComm.GlobalPos>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::RubinComm.GlobalPos KtsSpawnPos {
-      get { return ktsSpawnPos_; }
-      set {
-        ktsSpawnPos_ = value;
-      }
+    public pbc::RepeatedField<global::RubinComm.GlobalPos> KtsSpawnPoses {
+      get { return ktsSpawnPoses_; }
     }
 
     /// <summary>Field number for the "Buoys" field.</summary>
@@ -4703,6 +5210,42 @@ namespace RubinComm {
       }
     }
 
+    /// <summary>Field number for the "NavDistortion" field.</summary>
+    public const int NavDistortionFieldNumber = 18;
+    private float navDistortion_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float NavDistortion {
+      get { return navDistortion_; }
+      set {
+        navDistortion_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "KTSDepth" field.</summary>
+    public const int KTSDepthFieldNumber = 19;
+    private float kTSDepth_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float KTSDepth {
+      get { return kTSDepth_; }
+      set {
+        kTSDepth_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "SeaBottomDepth" field.</summary>
+    public const int SeaBottomDepthFieldNumber = 20;
+    private float seaBottomDepth_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float SeaBottomDepth {
+      get { return seaBottomDepth_; }
+      set {
+        seaBottomDepth_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -4721,7 +5264,7 @@ namespace RubinComm {
       if (!object.Equals(SimZoneCenter, other.SimZoneCenter)) return false;
       if (Time != other.Time) return false;
       if (Beaufort != other.Beaufort) return false;
-      if (!object.Equals(KtsSpawnPos, other.KtsSpawnPos)) return false;
+      if(!ktsSpawnPoses_.Equals(other.ktsSpawnPoses_)) return false;
       if(!buoys_.Equals(other.buoys_)) return false;
       if (Precipation != other.Precipation) return false;
       if (ANPAAmount != other.ANPAAmount) return false;
@@ -4734,6 +5277,9 @@ namespace RubinComm {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Error, other.Error)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Density, other.Density)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Frequency, other.Frequency)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(NavDistortion, other.NavDistortion)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(KTSDepth, other.KTSDepth)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(SeaBottomDepth, other.SeaBottomDepth)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4744,7 +5290,7 @@ namespace RubinComm {
       if (simZoneCenter_ != null) hash ^= SimZoneCenter.GetHashCode();
       if (Time != 0) hash ^= Time.GetHashCode();
       if (Beaufort != 0) hash ^= Beaufort.GetHashCode();
-      if (ktsSpawnPos_ != null) hash ^= KtsSpawnPos.GetHashCode();
+      hash ^= ktsSpawnPoses_.GetHashCode();
       hash ^= buoys_.GetHashCode();
       if (Precipation != global::RubinComm.Precipations.Rain) hash ^= Precipation.GetHashCode();
       if (ANPAAmount != 0) hash ^= ANPAAmount.GetHashCode();
@@ -4757,6 +5303,9 @@ namespace RubinComm {
       if (Error != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Error);
       if (Density != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Density);
       if (Frequency != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Frequency);
+      if (NavDistortion != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(NavDistortion);
+      if (KTSDepth != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(KTSDepth);
+      if (SeaBottomDepth != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(SeaBottomDepth);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4787,10 +5336,7 @@ namespace RubinComm {
         output.WriteRawTag(24);
         output.WriteInt32(Beaufort);
       }
-      if (ktsSpawnPos_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(KtsSpawnPos);
-      }
+      ktsSpawnPoses_.WriteTo(output, _repeated_ktsSpawnPoses_codec);
       buoys_.WriteTo(output, _repeated_buoys_codec);
       if (Precipation != global::RubinComm.Precipations.Rain) {
         output.WriteRawTag(56);
@@ -4836,6 +5382,18 @@ namespace RubinComm {
         output.WriteRawTag(141, 1);
         output.WriteFloat(Frequency);
       }
+      if (NavDistortion != 0F) {
+        output.WriteRawTag(149, 1);
+        output.WriteFloat(NavDistortion);
+      }
+      if (KTSDepth != 0F) {
+        output.WriteRawTag(157, 1);
+        output.WriteFloat(KTSDepth);
+      }
+      if (SeaBottomDepth != 0F) {
+        output.WriteRawTag(165, 1);
+        output.WriteFloat(SeaBottomDepth);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4858,10 +5416,7 @@ namespace RubinComm {
         output.WriteRawTag(24);
         output.WriteInt32(Beaufort);
       }
-      if (ktsSpawnPos_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(KtsSpawnPos);
-      }
+      ktsSpawnPoses_.WriteTo(ref output, _repeated_ktsSpawnPoses_codec);
       buoys_.WriteTo(ref output, _repeated_buoys_codec);
       if (Precipation != global::RubinComm.Precipations.Rain) {
         output.WriteRawTag(56);
@@ -4907,6 +5462,18 @@ namespace RubinComm {
         output.WriteRawTag(141, 1);
         output.WriteFloat(Frequency);
       }
+      if (NavDistortion != 0F) {
+        output.WriteRawTag(149, 1);
+        output.WriteFloat(NavDistortion);
+      }
+      if (KTSDepth != 0F) {
+        output.WriteRawTag(157, 1);
+        output.WriteFloat(KTSDepth);
+      }
+      if (SeaBottomDepth != 0F) {
+        output.WriteRawTag(165, 1);
+        output.WriteFloat(SeaBottomDepth);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4926,9 +5493,7 @@ namespace RubinComm {
       if (Beaufort != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Beaufort);
       }
-      if (ktsSpawnPos_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(KtsSpawnPos);
-      }
+      size += ktsSpawnPoses_.CalculateSize(_repeated_ktsSpawnPoses_codec);
       size += buoys_.CalculateSize(_repeated_buoys_codec);
       if (Precipation != global::RubinComm.Precipations.Rain) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Precipation);
@@ -4963,6 +5528,15 @@ namespace RubinComm {
       if (Frequency != 0F) {
         size += 2 + 4;
       }
+      if (NavDistortion != 0F) {
+        size += 2 + 4;
+      }
+      if (KTSDepth != 0F) {
+        size += 2 + 4;
+      }
+      if (SeaBottomDepth != 0F) {
+        size += 2 + 4;
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -4987,12 +5561,7 @@ namespace RubinComm {
       if (other.Beaufort != 0) {
         Beaufort = other.Beaufort;
       }
-      if (other.ktsSpawnPos_ != null) {
-        if (ktsSpawnPos_ == null) {
-          KtsSpawnPos = new global::RubinComm.GlobalPos();
-        }
-        KtsSpawnPos.MergeFrom(other.KtsSpawnPos);
-      }
+      ktsSpawnPoses_.Add(other.ktsSpawnPoses_);
       buoys_.Add(other.buoys_);
       if (other.Precipation != global::RubinComm.Precipations.Rain) {
         Precipation = other.Precipation;
@@ -5027,6 +5596,15 @@ namespace RubinComm {
       if (other.Frequency != 0F) {
         Frequency = other.Frequency;
       }
+      if (other.NavDistortion != 0F) {
+        NavDistortion = other.NavDistortion;
+      }
+      if (other.KTSDepth != 0F) {
+        KTSDepth = other.KTSDepth;
+      }
+      if (other.SeaBottomDepth != 0F) {
+        SeaBottomDepth = other.SeaBottomDepth;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5058,10 +5636,7 @@ namespace RubinComm {
             break;
           }
           case 34: {
-            if (ktsSpawnPos_ == null) {
-              KtsSpawnPos = new global::RubinComm.GlobalPos();
-            }
-            input.ReadMessage(KtsSpawnPos);
+            ktsSpawnPoses_.AddEntriesFrom(input, _repeated_ktsSpawnPoses_codec);
             break;
           }
           case 50: {
@@ -5112,6 +5687,18 @@ namespace RubinComm {
             Frequency = input.ReadFloat();
             break;
           }
+          case 149: {
+            NavDistortion = input.ReadFloat();
+            break;
+          }
+          case 157: {
+            KTSDepth = input.ReadFloat();
+            break;
+          }
+          case 165: {
+            SeaBottomDepth = input.ReadFloat();
+            break;
+          }
         }
       }
     #endif
@@ -5143,10 +5730,7 @@ namespace RubinComm {
             break;
           }
           case 34: {
-            if (ktsSpawnPos_ == null) {
-              KtsSpawnPos = new global::RubinComm.GlobalPos();
-            }
-            input.ReadMessage(KtsSpawnPos);
+            ktsSpawnPoses_.AddEntriesFrom(ref input, _repeated_ktsSpawnPoses_codec);
             break;
           }
           case 50: {
@@ -5197,6 +5781,18 @@ namespace RubinComm {
             Frequency = input.ReadFloat();
             break;
           }
+          case 149: {
+            NavDistortion = input.ReadFloat();
+            break;
+          }
+          case 157: {
+            KTSDepth = input.ReadFloat();
+            break;
+          }
+          case 165: {
+            SeaBottomDepth = input.ReadFloat();
+            break;
+          }
         }
       }
     }
@@ -5221,7 +5817,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[17]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5397,6 +5993,401 @@ namespace RubinComm {
   }
 
   /// <summary>
+  /// Sim => SGRU. PORT: 8085. TOPIC: IsInKTS
+  /// </summary>
+  public sealed partial class AnpaInKTS : pb::IMessage<AnpaInKTS>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AnpaInKTS> _parser = new pb::MessageParser<AnpaInKTS>(() => new AnpaInKTS());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AnpaInKTS> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[19]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AnpaInKTS() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AnpaInKTS(AnpaInKTS other) : this() {
+      aNPAId_ = other.aNPAId_;
+      kTSId_ = other.kTSId_;
+      holeId_ = other.holeId_;
+      inKts_ = other.inKts_;
+      kTSPosition_ = other.kTSPosition_ != null ? other.kTSPosition_.Clone() : null;
+      kTSOrientation_ = other.kTSOrientation_ != null ? other.kTSOrientation_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AnpaInKTS Clone() {
+      return new AnpaInKTS(this);
+    }
+
+    /// <summary>Field number for the "ANPAId" field.</summary>
+    public const int ANPAIdFieldNumber = 1;
+    private uint aNPAId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint ANPAId {
+      get { return aNPAId_; }
+      set {
+        aNPAId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "KTSId" field.</summary>
+    public const int KTSIdFieldNumber = 2;
+    private uint kTSId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint KTSId {
+      get { return kTSId_; }
+      set {
+        kTSId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "HoleId" field.</summary>
+    public const int HoleIdFieldNumber = 3;
+    private uint holeId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint HoleId {
+      get { return holeId_; }
+      set {
+        holeId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "InKts" field.</summary>
+    public const int InKtsFieldNumber = 4;
+    private bool inKts_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool InKts {
+      get { return inKts_; }
+      set {
+        inKts_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "KTSPosition" field.</summary>
+    public const int KTSPositionFieldNumber = 5;
+    private global::RubinComm.GlobalPos kTSPosition_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::RubinComm.GlobalPos KTSPosition {
+      get { return kTSPosition_; }
+      set {
+        kTSPosition_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "KTSOrientation" field.</summary>
+    public const int KTSOrientationFieldNumber = 6;
+    private global::RubinComm.Orientation kTSOrientation_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::RubinComm.Orientation KTSOrientation {
+      get { return kTSOrientation_; }
+      set {
+        kTSOrientation_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AnpaInKTS);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AnpaInKTS other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ANPAId != other.ANPAId) return false;
+      if (KTSId != other.KTSId) return false;
+      if (HoleId != other.HoleId) return false;
+      if (InKts != other.InKts) return false;
+      if (!object.Equals(KTSPosition, other.KTSPosition)) return false;
+      if (!object.Equals(KTSOrientation, other.KTSOrientation)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ANPAId != 0) hash ^= ANPAId.GetHashCode();
+      if (KTSId != 0) hash ^= KTSId.GetHashCode();
+      if (HoleId != 0) hash ^= HoleId.GetHashCode();
+      if (InKts != false) hash ^= InKts.GetHashCode();
+      if (kTSPosition_ != null) hash ^= KTSPosition.GetHashCode();
+      if (kTSOrientation_ != null) hash ^= KTSOrientation.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (ANPAId != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(ANPAId);
+      }
+      if (KTSId != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(KTSId);
+      }
+      if (HoleId != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(HoleId);
+      }
+      if (InKts != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(InKts);
+      }
+      if (kTSPosition_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(KTSPosition);
+      }
+      if (kTSOrientation_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(KTSOrientation);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (ANPAId != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(ANPAId);
+      }
+      if (KTSId != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(KTSId);
+      }
+      if (HoleId != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(HoleId);
+      }
+      if (InKts != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(InKts);
+      }
+      if (kTSPosition_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(KTSPosition);
+      }
+      if (kTSOrientation_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(KTSOrientation);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (ANPAId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(ANPAId);
+      }
+      if (KTSId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(KTSId);
+      }
+      if (HoleId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(HoleId);
+      }
+      if (InKts != false) {
+        size += 1 + 1;
+      }
+      if (kTSPosition_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(KTSPosition);
+      }
+      if (kTSOrientation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(KTSOrientation);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AnpaInKTS other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ANPAId != 0) {
+        ANPAId = other.ANPAId;
+      }
+      if (other.KTSId != 0) {
+        KTSId = other.KTSId;
+      }
+      if (other.HoleId != 0) {
+        HoleId = other.HoleId;
+      }
+      if (other.InKts != false) {
+        InKts = other.InKts;
+      }
+      if (other.kTSPosition_ != null) {
+        if (kTSPosition_ == null) {
+          KTSPosition = new global::RubinComm.GlobalPos();
+        }
+        KTSPosition.MergeFrom(other.KTSPosition);
+      }
+      if (other.kTSOrientation_ != null) {
+        if (kTSOrientation_ == null) {
+          KTSOrientation = new global::RubinComm.Orientation();
+        }
+        KTSOrientation.MergeFrom(other.KTSOrientation);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ANPAId = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            KTSId = input.ReadUInt32();
+            break;
+          }
+          case 24: {
+            HoleId = input.ReadUInt32();
+            break;
+          }
+          case 32: {
+            InKts = input.ReadBool();
+            break;
+          }
+          case 42: {
+            if (kTSPosition_ == null) {
+              KTSPosition = new global::RubinComm.GlobalPos();
+            }
+            input.ReadMessage(KTSPosition);
+            break;
+          }
+          case 50: {
+            if (kTSOrientation_ == null) {
+              KTSOrientation = new global::RubinComm.Orientation();
+            }
+            input.ReadMessage(KTSOrientation);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            ANPAId = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            KTSId = input.ReadUInt32();
+            break;
+          }
+          case 24: {
+            HoleId = input.ReadUInt32();
+            break;
+          }
+          case 32: {
+            InKts = input.ReadBool();
+            break;
+          }
+          case 42: {
+            if (kTSPosition_ == null) {
+              KTSPosition = new global::RubinComm.GlobalPos();
+            }
+            input.ReadMessage(KTSPosition);
+            break;
+          }
+          case 50: {
+            if (kTSOrientation_ == null) {
+              KTSOrientation = new global::RubinComm.Orientation();
+            }
+            input.ReadMessage(KTSOrientation);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// Message for ANPA diagnostic
   /// Suggest use very low frequency for that msg
   /// Freq &lt;= 0.1Hz
@@ -5416,7 +6407,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[18]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6086,7 +7077,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[19]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6327,7 +7318,7 @@ namespace RubinComm {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[20]; }
+      get { return global::RubinComm.RubinCommReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
