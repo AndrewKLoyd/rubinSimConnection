@@ -178,6 +178,9 @@ namespace Connection
                     case Sub.MathModelSwitch:
                         MessageArrived?.Invoke(sub, AnpaDinamicModel.Parser.ParseFrom(data));
                         break;
+                    case Sub.CustomSGRUEvent:
+                        MessageArrived?.Invoke(sub, Custom.Parser.ParseFrom(data));
+                        break;
                     default:
                         MessageArrived?.Invoke(sub, Custom.Parser.ParseFrom(data));
                         break;

@@ -29,7 +29,6 @@ namespace Connection
                 Console.WriteLine($"Message on topic arrived: {topic}");
                 data = _sub.ReceiveFrameBytes();
             });
-
             onMsgArrived?.Invoke(data);
             if (onMsgArrived == null) return;
             RunSub(onMsgArrived);

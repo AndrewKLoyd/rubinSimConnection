@@ -87,6 +87,7 @@ public class Addresses
         addresses.subAddr.Add(Sub.GroupTrajectory, "tcp://localhost:8095");
         addresses.subAddr.Add(Sub.MathModelSwitch, "tcp://localhost:8096");
         addresses.subAddr.Add(Sub.CustomSGRU, "tcp://localhost:8100");
+        addresses.subAddr.Add(Sub.CustomSGRUEvent, "tcp://localhost:8111");
         #endregion
 
         #endregion
