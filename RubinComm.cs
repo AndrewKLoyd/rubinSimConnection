@@ -80,15 +80,15 @@ namespace RubinComm {
             "cnkSCwoDa2V5GAEgASgFEigKBXZhbHVlGAIgASgLMhkuUnViaW5Db21tLkNv",
             "bnRyb2xsVmFsdWVzOgI4ASLSAwoHU2ltSW5pdBIrCg1TaW1ab25lQ2VudGVy",
             "GAEgASgLMhQuUnViaW5Db21tLkdsb2JhbFBvcxIMCgRUaW1lGAIgASgFEhAK",
-            "CEJlYXVmb3J0GAMgASgFEisKDWt0c1NwYXduUG9zZXMYBCADKAsyFC5SdWJp",
-            "bkNvbW0uR2xvYmFsUG9zEiMKBUJ1b3lzGAYgAygLMhQuUnViaW5Db21tLkds",
-            "b2JhbFBvcxIsCgtQcmVjaXBhdGlvbhgHIAEoDjIXLlJ1YmluQ29tbS5QcmVj",
-            "aXBhdGlvbnMSEgoKQU5QQUFtb3VudBgIIAEoBRIUCgxXYXRlckRlbnNpdHkY",
-            "CSABKAISEwoLVGVtcGVyYXR1cmUYCiABKAUSCwoDUFNVGAsgASgFEhEKCVR1",
-            "cmJpZGl0eRgMIAEoAhIRCglFY2hvQW5nbGUYDSABKAISFAoMRWNob0Rpc3Rh",
-            "bmNlGA4gASgCEg0KBUVycm9yGA8gASgCEg8KB0RlbnNpdHkYECABKAISEQoJ",
-            "RnJlcXVlbmN5GBEgASgCEhUKDU5hdkRpc3RvcnRpb24YEiABKAISEAoIS1RT",
-            "RGVwdGgYEyABKAISFgoOU2VhQm90dG9tRGVwdGgYFCABKAIiGQoGQ3VzdG9t",
+            "CEJlYXVmb3J0GAMgASgFEisKDUt0c1NwYXduUG9zZXMYBCADKAsyFC5SdWJp",
+            "bkNvbW0uR2xvYmFsUG9zEiMKBUJ1b3lzGAUgAygLMhQuUnViaW5Db21tLkds",
+            "b2JhbFBvcxIsCgtQcmVjaXBhdGlvbhgGIAEoDjIXLlJ1YmluQ29tbS5QcmVj",
+            "aXBhdGlvbnMSEgoKQU5QQUFtb3VudBgHIAEoBRIUCgxXYXRlckRlbnNpdHkY",
+            "CCABKAISEwoLVGVtcGVyYXR1cmUYCSABKAUSCwoDUFNVGAogASgFEhEKCVR1",
+            "cmJpZGl0eRgLIAEoAhIRCglFY2hvQW5nbGUYDCABKAISFAoMRWNob0Rpc3Rh",
+            "bmNlGA0gASgCEg0KBUVycm9yGA4gASgCEg8KB0RlbnNpdHkYDyABKAISEQoJ",
+            "RnJlcXVlbmN5GBAgASgCEhUKDU5hdkRpc3RvcnRpb24YESABKAISEAoIS1RT",
+            "RGVwdGgYEiABKAISFgoOU2VhQm90dG9tRGVwdGgYEyABKAIiGQoGQ3VzdG9t",
             "Eg8KB01lc3NhZ2UYASABKAkipAEKCUFucGFJbktUUxIOCgZBTlBBSWQYASAB",
             "KA0SDQoFS1RTSWQYAiABKA0SDgoGSG9sZUlkGAMgASgNEg0KBUluS3RzGAQg",
             "ASgIEikKC0tUU1Bvc2l0aW9uGAUgASgLMhQuUnViaW5Db21tLkdsb2JhbFBv",
@@ -5047,7 +5047,7 @@ namespace RubinComm {
       }
     }
 
-    /// <summary>Field number for the "ktsSpawnPoses" field.</summary>
+    /// <summary>Field number for the "KtsSpawnPoses" field.</summary>
     public const int KtsSpawnPosesFieldNumber = 4;
     private static readonly pb::FieldCodec<global::RubinComm.GlobalPos> _repeated_ktsSpawnPoses_codec
         = pb::FieldCodec.ForMessage(34, global::RubinComm.GlobalPos.Parser);
@@ -5059,9 +5059,9 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "Buoys" field.</summary>
-    public const int BuoysFieldNumber = 6;
+    public const int BuoysFieldNumber = 5;
     private static readonly pb::FieldCodec<global::RubinComm.GlobalPos> _repeated_buoys_codec
-        = pb::FieldCodec.ForMessage(50, global::RubinComm.GlobalPos.Parser);
+        = pb::FieldCodec.ForMessage(42, global::RubinComm.GlobalPos.Parser);
     private readonly pbc::RepeatedField<global::RubinComm.GlobalPos> buoys_ = new pbc::RepeatedField<global::RubinComm.GlobalPos>();
     /// <summary>
     /// List of bouys with their's geo position
@@ -5073,7 +5073,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "Precipation" field.</summary>
-    public const int PrecipationFieldNumber = 7;
+    public const int PrecipationFieldNumber = 6;
     private global::RubinComm.Precipations precipation_ = global::RubinComm.Precipations.Rain;
     /// <summary>
     /// Type of Precipation
@@ -5088,7 +5088,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "ANPAAmount" field.</summary>
-    public const int ANPAAmountFieldNumber = 8;
+    public const int ANPAAmountFieldNumber = 7;
     private int aNPAAmount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5100,7 +5100,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "WaterDensity" field.</summary>
-    public const int WaterDensityFieldNumber = 9;
+    public const int WaterDensityFieldNumber = 8;
     private float waterDensity_;
     /// <summary>
     /// Values just for calculation. They won't be displayed anywhere
@@ -5115,7 +5115,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "Temperature" field.</summary>
-    public const int TemperatureFieldNumber = 10;
+    public const int TemperatureFieldNumber = 9;
     private int temperature_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5127,7 +5127,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "PSU" field.</summary>
-    public const int PSUFieldNumber = 11;
+    public const int PSUFieldNumber = 10;
     private int pSU_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5139,7 +5139,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "Turbidity" field.</summary>
-    public const int TurbidityFieldNumber = 12;
+    public const int TurbidityFieldNumber = 11;
     private float turbidity_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5151,7 +5151,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "EchoAngle" field.</summary>
-    public const int EchoAngleFieldNumber = 13;
+    public const int EchoAngleFieldNumber = 12;
     private float echoAngle_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5163,7 +5163,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "EchoDistance" field.</summary>
-    public const int EchoDistanceFieldNumber = 14;
+    public const int EchoDistanceFieldNumber = 13;
     private float echoDistance_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5175,7 +5175,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "Error" field.</summary>
-    public const int ErrorFieldNumber = 15;
+    public const int ErrorFieldNumber = 14;
     private float error_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5187,7 +5187,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "Density" field.</summary>
-    public const int DensityFieldNumber = 16;
+    public const int DensityFieldNumber = 15;
     private float density_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5199,7 +5199,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "Frequency" field.</summary>
-    public const int FrequencyFieldNumber = 17;
+    public const int FrequencyFieldNumber = 16;
     private float frequency_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5211,7 +5211,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "NavDistortion" field.</summary>
-    public const int NavDistortionFieldNumber = 18;
+    public const int NavDistortionFieldNumber = 17;
     private float navDistortion_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5223,7 +5223,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "KTSDepth" field.</summary>
-    public const int KTSDepthFieldNumber = 19;
+    public const int KTSDepthFieldNumber = 18;
     private float kTSDepth_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5235,7 +5235,7 @@ namespace RubinComm {
     }
 
     /// <summary>Field number for the "SeaBottomDepth" field.</summary>
-    public const int SeaBottomDepthFieldNumber = 20;
+    public const int SeaBottomDepthFieldNumber = 19;
     private float seaBottomDepth_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5339,59 +5339,59 @@ namespace RubinComm {
       ktsSpawnPoses_.WriteTo(output, _repeated_ktsSpawnPoses_codec);
       buoys_.WriteTo(output, _repeated_buoys_codec);
       if (Precipation != global::RubinComm.Precipations.Rain) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(48);
         output.WriteEnum((int) Precipation);
       }
       if (ANPAAmount != 0) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(56);
         output.WriteInt32(ANPAAmount);
       }
       if (WaterDensity != 0F) {
-        output.WriteRawTag(77);
+        output.WriteRawTag(69);
         output.WriteFloat(WaterDensity);
       }
       if (Temperature != 0) {
-        output.WriteRawTag(80);
+        output.WriteRawTag(72);
         output.WriteInt32(Temperature);
       }
       if (PSU != 0) {
-        output.WriteRawTag(88);
+        output.WriteRawTag(80);
         output.WriteInt32(PSU);
       }
       if (Turbidity != 0F) {
-        output.WriteRawTag(101);
+        output.WriteRawTag(93);
         output.WriteFloat(Turbidity);
       }
       if (EchoAngle != 0F) {
-        output.WriteRawTag(109);
+        output.WriteRawTag(101);
         output.WriteFloat(EchoAngle);
       }
       if (EchoDistance != 0F) {
-        output.WriteRawTag(117);
+        output.WriteRawTag(109);
         output.WriteFloat(EchoDistance);
       }
       if (Error != 0F) {
-        output.WriteRawTag(125);
+        output.WriteRawTag(117);
         output.WriteFloat(Error);
       }
       if (Density != 0F) {
-        output.WriteRawTag(133, 1);
+        output.WriteRawTag(125);
         output.WriteFloat(Density);
       }
       if (Frequency != 0F) {
-        output.WriteRawTag(141, 1);
+        output.WriteRawTag(133, 1);
         output.WriteFloat(Frequency);
       }
       if (NavDistortion != 0F) {
-        output.WriteRawTag(149, 1);
+        output.WriteRawTag(141, 1);
         output.WriteFloat(NavDistortion);
       }
       if (KTSDepth != 0F) {
-        output.WriteRawTag(157, 1);
+        output.WriteRawTag(149, 1);
         output.WriteFloat(KTSDepth);
       }
       if (SeaBottomDepth != 0F) {
-        output.WriteRawTag(165, 1);
+        output.WriteRawTag(157, 1);
         output.WriteFloat(SeaBottomDepth);
       }
       if (_unknownFields != null) {
@@ -5419,59 +5419,59 @@ namespace RubinComm {
       ktsSpawnPoses_.WriteTo(ref output, _repeated_ktsSpawnPoses_codec);
       buoys_.WriteTo(ref output, _repeated_buoys_codec);
       if (Precipation != global::RubinComm.Precipations.Rain) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(48);
         output.WriteEnum((int) Precipation);
       }
       if (ANPAAmount != 0) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(56);
         output.WriteInt32(ANPAAmount);
       }
       if (WaterDensity != 0F) {
-        output.WriteRawTag(77);
+        output.WriteRawTag(69);
         output.WriteFloat(WaterDensity);
       }
       if (Temperature != 0) {
-        output.WriteRawTag(80);
+        output.WriteRawTag(72);
         output.WriteInt32(Temperature);
       }
       if (PSU != 0) {
-        output.WriteRawTag(88);
+        output.WriteRawTag(80);
         output.WriteInt32(PSU);
       }
       if (Turbidity != 0F) {
-        output.WriteRawTag(101);
+        output.WriteRawTag(93);
         output.WriteFloat(Turbidity);
       }
       if (EchoAngle != 0F) {
-        output.WriteRawTag(109);
+        output.WriteRawTag(101);
         output.WriteFloat(EchoAngle);
       }
       if (EchoDistance != 0F) {
-        output.WriteRawTag(117);
+        output.WriteRawTag(109);
         output.WriteFloat(EchoDistance);
       }
       if (Error != 0F) {
-        output.WriteRawTag(125);
+        output.WriteRawTag(117);
         output.WriteFloat(Error);
       }
       if (Density != 0F) {
-        output.WriteRawTag(133, 1);
+        output.WriteRawTag(125);
         output.WriteFloat(Density);
       }
       if (Frequency != 0F) {
-        output.WriteRawTag(141, 1);
+        output.WriteRawTag(133, 1);
         output.WriteFloat(Frequency);
       }
       if (NavDistortion != 0F) {
-        output.WriteRawTag(149, 1);
+        output.WriteRawTag(141, 1);
         output.WriteFloat(NavDistortion);
       }
       if (KTSDepth != 0F) {
-        output.WriteRawTag(157, 1);
+        output.WriteRawTag(149, 1);
         output.WriteFloat(KTSDepth);
       }
       if (SeaBottomDepth != 0F) {
-        output.WriteRawTag(165, 1);
+        output.WriteRawTag(157, 1);
         output.WriteFloat(SeaBottomDepth);
       }
       if (_unknownFields != null) {
@@ -5523,7 +5523,7 @@ namespace RubinComm {
         size += 1 + 4;
       }
       if (Density != 0F) {
-        size += 2 + 4;
+        size += 1 + 4;
       }
       if (Frequency != 0F) {
         size += 2 + 4;
@@ -5639,63 +5639,63 @@ namespace RubinComm {
             ktsSpawnPoses_.AddEntriesFrom(input, _repeated_ktsSpawnPoses_codec);
             break;
           }
-          case 50: {
+          case 42: {
             buoys_.AddEntriesFrom(input, _repeated_buoys_codec);
             break;
           }
-          case 56: {
+          case 48: {
             Precipation = (global::RubinComm.Precipations) input.ReadEnum();
             break;
           }
-          case 64: {
+          case 56: {
             ANPAAmount = input.ReadInt32();
             break;
           }
-          case 77: {
+          case 69: {
             WaterDensity = input.ReadFloat();
             break;
           }
-          case 80: {
+          case 72: {
             Temperature = input.ReadInt32();
             break;
           }
-          case 88: {
+          case 80: {
             PSU = input.ReadInt32();
             break;
           }
-          case 101: {
+          case 93: {
             Turbidity = input.ReadFloat();
             break;
           }
-          case 109: {
+          case 101: {
             EchoAngle = input.ReadFloat();
             break;
           }
-          case 117: {
+          case 109: {
             EchoDistance = input.ReadFloat();
             break;
           }
-          case 125: {
+          case 117: {
             Error = input.ReadFloat();
             break;
           }
-          case 133: {
+          case 125: {
             Density = input.ReadFloat();
             break;
           }
-          case 141: {
+          case 133: {
             Frequency = input.ReadFloat();
             break;
           }
-          case 149: {
+          case 141: {
             NavDistortion = input.ReadFloat();
             break;
           }
-          case 157: {
+          case 149: {
             KTSDepth = input.ReadFloat();
             break;
           }
-          case 165: {
+          case 157: {
             SeaBottomDepth = input.ReadFloat();
             break;
           }
@@ -5733,63 +5733,63 @@ namespace RubinComm {
             ktsSpawnPoses_.AddEntriesFrom(ref input, _repeated_ktsSpawnPoses_codec);
             break;
           }
-          case 50: {
+          case 42: {
             buoys_.AddEntriesFrom(ref input, _repeated_buoys_codec);
             break;
           }
-          case 56: {
+          case 48: {
             Precipation = (global::RubinComm.Precipations) input.ReadEnum();
             break;
           }
-          case 64: {
+          case 56: {
             ANPAAmount = input.ReadInt32();
             break;
           }
-          case 77: {
+          case 69: {
             WaterDensity = input.ReadFloat();
             break;
           }
-          case 80: {
+          case 72: {
             Temperature = input.ReadInt32();
             break;
           }
-          case 88: {
+          case 80: {
             PSU = input.ReadInt32();
             break;
           }
-          case 101: {
+          case 93: {
             Turbidity = input.ReadFloat();
             break;
           }
-          case 109: {
+          case 101: {
             EchoAngle = input.ReadFloat();
             break;
           }
-          case 117: {
+          case 109: {
             EchoDistance = input.ReadFloat();
             break;
           }
-          case 125: {
+          case 117: {
             Error = input.ReadFloat();
             break;
           }
-          case 133: {
+          case 125: {
             Density = input.ReadFloat();
             break;
           }
-          case 141: {
+          case 133: {
             Frequency = input.ReadFloat();
             break;
           }
-          case 149: {
+          case 141: {
             NavDistortion = input.ReadFloat();
             break;
           }
-          case 157: {
+          case 149: {
             KTSDepth = input.ReadFloat();
             break;
           }
-          case 165: {
+          case 157: {
             SeaBottomDepth = input.ReadFloat();
             break;
           }
