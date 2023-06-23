@@ -80,6 +80,7 @@ public class Addresses
         addresses.subAddr.Add(Sub.SimInit, "tcp://localhost:8101");
         addresses.subAddr.Add(Sub.Mission, "tcp://localhost:8102");
         addresses.subAddr.Add(Sub.Custom, "tcp://localhost:8110");
+        addresses.subAddr.Add(Sub.CustomTab, "tcp://localhost:8109");
         #endregion
 
         #region  RegulatorSubscribers

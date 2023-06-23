@@ -181,6 +181,9 @@ namespace Connection
                     case Sub.CustomSGRUEvent:
                         MessageArrived?.Invoke(sub, Custom.Parser.ParseFrom(data));
                         break;
+                    case Sub.CustomTab:
+                        MessageArrived?.Invoke(sub, Custom.Parser.ParseFrom(data));
+                        break;
                     default:
                         MessageArrived?.Invoke(sub, Custom.Parser.ParseFrom(data));
                         break;

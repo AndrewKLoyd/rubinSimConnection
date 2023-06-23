@@ -10,7 +10,8 @@ namespace Connection.ConnTypes
         GroupTrajectory,
         MathModelSwitch,
         CustomSGRU,
-        CustomSGRUEvent
+        CustomSGRUEvent,
+        CustomTab
     }
 
     //TODO: Modify when new pub was added
